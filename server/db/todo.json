@@ -1,42 +1,17 @@
 [
   {
-    "task": "ewqe",
+    "task": "Создать client",
+    "id": 1,
+    "important": true
+  },
+  {
+    "task": "Создать server",
     "id": 2,
     "important": true
   },
   {
-    "task": "ewqe",
+    "task": "Сделать deploy на heroku",
     "id": 3,
-    "important": true
-  },
-  {
-    "task": "qwe",
-    "id": 4,
-    "important": true
-  },
-  {
-    "task": "wqewq",
-    "id": 8,
-    "important": true
-  },
-  {
-    "task": "ewqeq",
-    "id": 9,
-    "important": true
-  },
-  {
-    "task": "ewqeqeqw",
-    "id": 11,
-    "important": true
-  },
-  {
-    "task": "",
-    "id": 12,
-    "important": true
-  },
-  {
-    "task": "",
-    "id": 13,
     "important": true
   }
 ]
