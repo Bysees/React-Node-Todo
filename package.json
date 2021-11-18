@@ -4,7 +4,7 @@
   "description": "deploy_test",
   "main": "index.js",
   "scripts": {
-    "prod": "set NODE_ENV=production && nodemon server",
+    "prod": "set NODE_ENV=production && node server",
     "dev": "nodemon server"
   },
   "author": "Alex",
