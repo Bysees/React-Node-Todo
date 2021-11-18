@@ -14,9 +14,9 @@ const production = process.env?.NODE_ENV?.trim()
 
 if (production === 'production') {
   console.log('Producition was started')
-  app.use(express.static(path.join(__dirname, 'client/build')))
+  app.use(express.static(path.join(__dirname, 'client', 'build')))
   app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname, 'client/build', 'index.html'))
+    res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'))
   })
 }
 
