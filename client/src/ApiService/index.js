@@ -1,10 +1,7 @@
 import axios from 'axios'
 
-const isDevelopment = process.env.NODE_ENV === 'development'
-const url = isDevelopment ? 'http://localhost:5000' : ''
-
 const instance = axios.create({
-  baseURL: `${url}/api/todo`,
+  baseURL: `/api/todo`,
 })
 
 export class ApiService {
