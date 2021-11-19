@@ -16,6 +16,7 @@ if (production === 'production') {
   console.log("You've run a producition build!")
   app.use(express.static(path.join(__dirname, '../client/build')))
   app.get('/*', (req, res) => {
+    //! '/*' - звёздочка нужна для того, чтобы роутинг работал на статичной версии сайта (то есть в продакшене).
     res.sendFile(path.join(__dirname, '../client/build', 'index.html'))
   })
 }
